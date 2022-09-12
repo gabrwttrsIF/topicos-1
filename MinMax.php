@@ -6,7 +6,8 @@
 	//Indica dificuldade
 	$dificuldade = isset($_POST["difc"]) ? strip_tags($_POST["difc"]) : "";
 	
-	
+	//EU MUDEI O SEU CÓDIGO. Gabriel L
+
 	//classe para trabalhar o minimax
 class MiniMax{
 	public $tabuleiro;
