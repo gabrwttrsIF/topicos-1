@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<title>Jogo da Terceira Idade MinMax</title>
+	<style type="text/css">
+		#config td {
+			padding-bottom: 20px;
+		}
+	</style>
+	<script type="text/javascript">
+		
+	</script>
+</head>
+
+<body>
+	<div id="cabeçalho" align="center" style="margin-top: inherit;">
+		<h1>Jogo da Terceira Idade MinMax</h1>
+		<h3>Sistemas de Informação - Inteligência Artificial</h3>
+		<h4>Marlom Marsal Marques</h4>
+		<h4>Rubens Antônio Marcon</h4>
+	</div>
+	<br />
+	<br />
+	<form name="este" action="jogo.php" method="get">
+		<table id="config" border="0px" style="margin-left:auto; margin-right:auto; padding: 2px;">
+			<tr>
+				<td align="right">Começar<br />Jogando:</td>
+				<td align="left"><input type="checkbox" name="ord" checked="true" /></td>
+			</tr>
+			<tr>
+				<td align="right">Marcar:</td>
+				<td>
+					<input type="radio" name="marc" value="x" /><span style="font-family: Arial; font-weight: bold;">X</span><br />
+					<input type="radio" name="marc" value="o" /><span style="font-family: Arial; font-weight: bold;">O</span>
+				</td>
+			</tr>
+			<tr>
+				<td align="right">Teste Sua Sorte:</td>
+				<td>
+					<input type="radio" name="difc" value="1" />Noob<br />
+					<input type="radio" name="difc" value="2" />Maomeno<br />
+					<input type="radio" name="difc" value="3" />WTF?<br />
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" value="Iniciar Jogo..." /></td>
+			</tr>
+		</table>
+	</form>
+</body>
+
+</html>
